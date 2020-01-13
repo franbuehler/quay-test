@@ -1,4 +1,4 @@
-FROM centos/7
+FROM centos:7
 
 RUN env && \
     yum install -y git && \
